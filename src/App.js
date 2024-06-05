@@ -37,9 +37,7 @@ function App() {
         placeholder="Search for a word..."
       />
       <button onClick={() => handleSearch()}>Search</button>
-      <p>
-        <strong>Definition: </strong>
-      </p>
+      <p style={{ fontWeight: "bold" }}>Definition:</p>
 
       {suggestedText && <p>{suggestedText}</p>}
     </div>
